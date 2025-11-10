@@ -1,0 +1,83 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Syne", sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Syne", sans-serif;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+section {
+    scroll-margin: 50px;
+}
+
+.client-img {
+    object-fit: contain;
+    width: 200px;
+    padding: 0 20px;
+}
+
+.card-service { transition: all .25s ease; } 
+.card-service:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    background: darkblue !important;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-img {
+    height: 95%;
+    width: auto;
+}
+
+.info-card {
+    transition: all .3s ease-in-out;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.portfolio-card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-img {
+    object-fit: cover;
+    height: 450px;
+    filter: brightness(0.9);
+}
+
+.portfolio-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 3%;
+    text-align: center;
+}
